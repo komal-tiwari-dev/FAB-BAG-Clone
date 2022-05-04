@@ -1,4 +1,4 @@
-import { navbar } from "../component/navbar.js";
+import { navbar } from "./component/navbar.js";
 document.querySelector("#navbar").innerHTML = navbar();
 
 let clickme = () => {
