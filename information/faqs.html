@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="../landing-page1/index.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+
     <link rel="stylesheet" href="../styles/footer.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/24c494a6b6.js"
@@ -22,7 +27,7 @@
             width: 75%;
             border-bottom: 2px solid #E5B95F;
             margin: auto;
-            margin-top: 40px;
+            margin-top: 110px;
             
         }
         h2{
@@ -53,6 +58,7 @@
 </head>
 <body>
 
+    <div id="navbar"></div>
 
     <div id="heading">
         <h2>FAQ</h2>
@@ -131,5 +137,10 @@
     import { footer2 } from '../components/footer.js';
     
     document.getElementById('footer_').innerHTML = footer2();
+
+    import { navbar } from '../landing-page1/component/navbar.js';
+
+    document.getElementById('navbar').innerHTML = navbar();
+
     
 </script>

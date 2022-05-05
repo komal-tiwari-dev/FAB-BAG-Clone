@@ -5,33 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="../landing-page1/index.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+
     <link rel="stylesheet" href="../styles/footer.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
     <script
       src="https://kit.fontawesome.com/24c494a6b6.js"
       crossorigin="anonymous"
     ></script>
+
     <style>
+
         *{
             font-family: 'Poppins', sans-serif;
         }
+
         #heading{
             text-align: center;
             width: 75%;
             border-bottom: 2px solid #E5B95F;
             margin: auto;
-            margin-top: 40px;
+            margin-top:110px;
         }
+
         #content{
             width: 78%;
             margin: auto;
             margin-bottom: 160px;
         }
+
         h2{
             font-weight: bolder;
             font-size: 20px;
             font-style: italic;
         }
+
         #content p{
             font-size: 14px;
             font-weight: bold;
@@ -39,11 +52,15 @@
             text-align: justify;
             line-height: 24px;
             margin-bottom: 30px;
-        }
+        }        
+
     </style>
+
 </head>
 
 <body>
+
+    <div id="navbar"></div>    
 
     <div id="heading">
         <h2>ABOUT US</h2>
@@ -72,5 +89,9 @@
 import { footer2 } from '../components/footer.js';
 
 document.getElementById('footer_').innerHTML = footer2();
+
+import { navbar } from '../landing-page1/component/navbar.js';
+
+document.getElementById('navbar').innerHTML = navbar();
 
 </script>
