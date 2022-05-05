@@ -1,0 +1,155 @@
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+#footer_{
+    box-shadow: rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding-top: 60px;
+    padding-bottom: 25px;    
+}
+#upper_{
+    display: flex;
+    width: 75%;
+    /* border: 1px dashed teal; */
+    margin: auto; 
+    justify-content: space-between;      
+}
+
+#upper_ > div{
+    width: 31.5%;            
+    /* border: 1px dashed teal; */
+}
+
+#icons_{
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+    /* border: 1px solid teal; */
+    margin: auto;
+}
+
+#icons_ > div{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(165, 161, 161);            
+    align-items: center;
+    border-radius: 50%;
+}
+
+i{
+    margin: auto;
+}
+
+#lower_{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#call{
+    height: 4px;
+}
+
+#call span{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#subscribe_{
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E5B95F;
+    color: white;
+    padding:11px 16px 11px 16px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+}
+
+#subscribe_:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+#three_ input{
+    border: none;
+    border-radius: 5px;
+    height: 33px;
+    width: 220px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#three_ > div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer_ p{
+    color: rgb(121, 116, 116);
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#three_ p{
+    font-size: 12px;
+}
+
+.fa-brands{
+    color: white;
+}
+
+#icons_ > div:nth-child(1):hover {
+    background-color: #3b5998;
+    cursor: pointer;            
+}
+#icons_ > div:nth-child(2):hover {
+    background-color: #00acee;
+    cursor: pointer;            
+}
+#icons_ > div:nth-child(3):hover {
+    background-color: #405DE6;
+    cursor: pointer;            
+}
+#icons_ > div:nth-child(4):hover {
+    background-color: #ff0000;
+    cursor: pointer;            
+}
+
+
+#upper_ h3{
+    font-weight: 500;            
+}
+
+#one_ a{
+    text-decoration: none;
+    color: rgb(121, 116, 116);
+}
+
+#one_ > p > a:hover, #two_ span:hover{
+    cursor: pointer;
+    color:#E5B95F;
+}
+
+#in_lower{
+    display: flex;
+}
+
+#in_lower > div:nth-child(odd){
+    /* border: 1px solid red; */
+    width: 160px;
+}
+
+#in_lower > div:nth-child(3) > div{
+    /* border: 1px solid teal; */
+    width: 25%;
+    height: 75%;
+    margin: auto;
+    padding-top: 8px;
+}
+#in_lower > div:nth-child(3) > div:hover{
+    cursor: pointer;
+    color: grey;
+}
