@@ -1,0 +1,260 @@
+
+/* Upper slide CSS */
+.carousel {
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+}
+.carousel .carousel_item, 
+.carousel .carousel_item--hidden {
+    display: none;
+}
+.carousel .carousel_item img {
+    width: 100%;
+    max-width: 100%;
+    height: 450px;
+}
+.carousel .carousel_item--visible {
+    display: block;
+}
+.carousel_actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.carousel_actions button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+
+/* what's in the abg */
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 98%;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.whats0889 {
+    /* display: block; */
+    width: 100%;
+    height: 80%;
+    /* object-fit: cover; */
+    border-radius: 20px;
+    border: 3px solid #e5b95f;
+    
+}
+
+.swiper-slide p {
+    margin-top: 5px;
+}
+.swiper-button-next,.swiper-button-prev {
+    color: grey;
+}
+.swiper-slide img:hover {
+    opacity: 0.2 ;
+    /* background-color: grey; */
+}
+
+
+.swiper-button-next:hover,.swiper-button-prev:hover {
+    color: #e5b95f;
+}
+#whatsBag_089 {
+    width: 27%;
+    height: 46px;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: 2px solid  #e5b95f;
+    text-align: center;
+}
+#whatsBag_089 p {
+    margin-top: 0px;
+    font-size: 34px;
+}
+
+/* previous bag */
+
+#swipper0889 {
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.prebag0889 {
+ width: 100%;
+    height: 60%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.swiper-button-next,.swiper-button-prev {
+    color: grey;
+    margin-top: -90px;
+}
+
+.swiper-button-next:hover,.swiper-button-prev:hover {
+    color: #e5b95f;
+}
+
+#prevBag_089 {
+    width: 27%;
+    height: 46px;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: 2px solid  #e5b95f;
+    text-align: center;
+}
+#prevBag_089 p {
+    margin-top: 0px;
+    font-size: 34px;
+    margin-top: 40px;
+}
+span {
+    font-style: italic;
+    color: grey;
+}
+.ptag_bag1 {
+    float: left;
+    color: grey;
+    margin-top: -5px;
+}
+.ptag_bag {
+    float: left; 
+    font-size: 14px; 
+    cursor: pointer;
+    color: #8c8c8c;
+}
+.ptag_bag:hover {
+    color: #e5b95f;
+}
+#span_0889 {
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+/* TESTIMONIALS CSS */
+.carousel1 {
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+    background-image: url("https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Testimonial-Final_2048x.png?v=1548829465");
+    height: 500px;
+    margin-top: 40px;
+
+}
+.carousel1 .carousel1_item, 
+.carousel1 .carousel1_item--hidden {
+    display: none;
+    width: 80%;
+    margin: auto;
+}
+
+.carousel1 .carousel1_item p {
+    text-align: center;
+    line-height: 35px;
+    margin-top: 30px;
+}
+.carousel1 .carousel1_item--visible {
+    display: block;
+}
+.carousel_actions1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.carousel_actions1 button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+  border: 0px;
+  color: grey;
+}
+.carousel_actions1 button:hover {
+    color: #e5b95f;
+}
+/* TESTIMONIALS */
+#testoimo_0889 {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid  #e5b95f;
+    width: 20%;
+    margin: auto;
+   margin-bottom: 20px;
+    
+}
+#testoimo_0889 p {
+    margin-bottom: 10px;
+}
+#comma_0889 {
+    text-align: center;
+    font-size: 35px;
+    /* margin-top: 30px; */
+}
+
+/* last html css */
+.owl-carousel {
+    width: 80%;
+    margin: auto;
+    height: 250px;
+}
+
+#slide_09 {
+    width: 100%;
+    background-color: #e5b95f;
+    margin-top: 30px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.item {
+    margin: 40px;
+}
+
+.lastimg0998 {
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 2px;
+}

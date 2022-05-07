@@ -7,6 +7,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/homepage1.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto:ital,wght@1,300&display=swap"
         rel="stylesheet">
@@ -14,6 +15,20 @@
         src="https://kit.fontawesome.com/24c494a6b6.js"
         crossorigin="anonymous"
       ></script>
+
+      <!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- last html -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <!-- Make your branch with your task name and pull push in that -->
@@ -21,6 +36,254 @@
     <!-- Everytime make chnages in your repo -->
     <div id="navbar"></div>
     <!-- body code here -->
+
+    <!-- upper slide -->
+    <div class="carousel">
+        <div class="carousel_item 
+        carousel_item--visible">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Homepage-Banner-Makeup-Reveal-1_2156cf43-9cb3-4633-97d9-2c72b7059117_2048x.png?v=1651562755"
+                alt="image" />
+        </div>
+        <div class="carousel_item">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Homepage-Banner-Makeup-Reveal-2_176664c3-8b3a-49bd-9206-b19d331d342d_2048x.png?v=1651723867"
+            alt="image" />
+        </div>
+        <div class="carousel_item">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Homepage-Banner-bAG-Reveal-Recovered_b18183de-8b77-490e-b6f9-78adbccd3ebb_2048x.png?v=1651344357"
+            alt="image" />
+        </div>
+
+        <div class="carousel_actions">
+            <button id="carousel_buttom--prev"><</button>
+            <button id="carousel_buttom--next">></button>
+        </div>
+    </div>
+
+
+    <!-- what's in the bag -->
+    <div id="whatsBag_089">
+        <p>WHAT'S IN THE BAG</p>
+    </div>
+    
+        <!-- Swiper -->
+        <div class="swiper mySwiper" >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" id="div-1">
+                    <img class= "whats0889" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Makeup-1_3b816288-c67c-45f5-be14-b43738b3debc_2048x.png?v=1651562814"
+                        alt="image" />
+                    <P>SUGAR OWN THE LIGHT LIQUID HIGHLIGHTER OF YOUR CHOICE</P>
+                </div>
+                <div class="swiper-slide" id="div-2" >
+                    <img class= "whats0889" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Makeup-2_4d6ee935-1e6e-4730-9adc-64add3471eb1_2048x.png?v=1651723979"
+                        alt="image" />
+                    <P>SUGAR SMUDGE ME NOT LIQUID LIPSTICK MINI OF YOUR CHOICE!*</P>
+                </div>
+                <div class="swiper-slide" id="div-3">
+                    <img class= "whats0889" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Skincare-1_cf1f2eb6-e64c-4dcb-af8b-f80963cceddd_2048x.png?v=1651344625"
+                        alt="image" />
+                    <P>HAIRCARE DUO</P>
+                </div>
+                <div class="swiper-slide" id="div-4">
+                    <img class= "whats0889" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Skincare-2_2_2048x.png?v=1651466768"
+                        alt="image" />
+                    <P>ORGANIC SOAP</P>
+                </div>
+                <div class="swiper-slide" id="div-5">
+                    <img class= "whats0889" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Bonus_2048x.gif?v=1651344727"
+                        alt="image" />
+                    <P>BONUS*</P>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+    
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+   
+        <!-- previous bag -->
+        <div id="prevBag_089">
+            <p>PREVIOUS BAGS</p>
+        </div>
+        
+            <!-- Swiper -->
+            <div class="swiper mySwiper" id="swipper0889">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" id="div-1a">
+                        <img class= "prebag0889" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal-3_1728264b-2e0f-4314-9a3c-0fde458d72a7_large.png?v=1649483317"
+                            alt="image" />
+                        <P class="ptag_bag">Apr'22 The Sassy Spring Fab Bag</P>
+                        <p class="ptag_bag1">  <span>from</span> Rs. 599.00</p>
+                    </div>
+                    <div class="swiper-slide" id="div-2a" >
+                        <img class= "prebag0889" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal-3_large.png?v=1646971494"
+                            alt="image" />
+                            <P class="ptag_bag">Mar'22 The Empow-HER Fab Bag</P>
+                            <p class="ptag_bag1">  <span>from</span> Rs. 599.00</p>
+                    </div>
+                    <div class="swiper-slide" id="div-3a">
+                        <img class= "prebag0889" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal-2_large.gif?v=1644395072"
+                            alt="image" />
+                            <P class="ptag_bag">Feb'22 The Colour Me Cupid Fab Bag</P>
+                            <p class="ptag_bag1">  <span>from</span> Rs. 599.00</p>
+                    </div>
+                    <div class="swiper-slide" id="div-4a">
+                        <img class= "prebag0889" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal--3_large.png?v=1641707966"
+                            alt="image" />
+                            <P class="ptag_bag">Jan'22 The Beauty Resolution Fab Bag</P>
+                            <p class="ptag_bag1">  <span>from</span> Rs. 599.00</p>
+                    </div>
+                    <div class="swiper-slide" id="div-5a">
+                        <img class= "prebag0889" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-3_large.gif?v=1638191014"
+                            alt="image" />
+                            <P class="ptag_bag">Dec'21 The X-Must Haves Fab Bag</P>
+                            <p class="ptag_bag1">  <span>from</span> Rs. 599.00</p>
+                    </div>
+                    <div class="swiper-slide" id="div-6a">
+                        <img class= "prebag0889" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner--Skincare-Reveal-4_1_large.gif?v=1636696484"
+                            alt="image" />
+                            <P class="ptag_bag">Nov'21 The Diva-Li-Coius Fab Bag</P>
+                            <p class="ptag_bag1">  <span id="span_0889">Rs. 1,797.00</span> <span>from</span> Rs. 599.00</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        
+<!-- TESTIMONIALS HTML -->
+<div class="carousel1">
+    <div id="testoimo_0889">
+        <p>TESTIMONIALS</p>
+    
+    </div>
+   
+    <div class="carousel1_item 
+    carousel1_item--visible">
+
+    <div id="comma_0889"><i class="fa-solid fa-quote-left"></i> </div>
+            <p>I love each and every Fab Bag that I receive each month past three years. I am so much 
+                in love with fab bags and all the lovely products and cute little pouches that I get. I 
+                love Fab Bag.</p>
+                <p>- Munira</p>
+    </div>
+    <div class="carousel1_item">
+        <div id="comma_0889"><i class="fa-solid fa-quote-left"></i> </div>
+        <p>I've been a regular Fab Bag subscriber for many years now and I must say that the Fab Bag team comes
+             up with something or the other as a special attraction in the bag every month.  As always, thank 
+             you Fab Bag for making my day with this bag!!!</p>
+             <p>- Poonam</p>
+    </div>
+    <div class="carousel1_item">
+        <div id="comma_0889"><i class="fa-solid fa-quote-left"></i> </div>
+        <p>I like the fact that they offer high-quality products. Every single product from the bag stands out. 
+            It is a MUST TRY for every girl out there.</p>
+            <p>- Shikha</p>
+    </div>
+
+    <div class="carousel1_item">
+        <div id="comma_0889"><i class="fa-solid fa-quote-left"></i> </div>
+
+        <p>I am highly impressed with the idea of surprising the customers by leaving them to guess, whats 
+            inside the Bag. Surprises brings excitement and I am always excited to receive my Fab Bag. 
+            First of all I should say that the Bags are awesome and each time I got my Fab Bag, I was 
+            really happy to find whats inside it. Really satisfied! :) </p>
+            <p>- Pratika</p>
+    </div>
+
+    <div class="carousel1_item">
+        <div id="comma_0889"><i class="fa-solid fa-quote-left"></i> </div>
+        <p>This is my second month and I am already addicted. Can't wait for my third bag. It feels like 
+            someone with so much love who loves pampering you. Thank you Fab bag. Amazing products Thank you 
+            with gratitude. </p>
+            <p>- Kirthana</p>
+    </div>
+
+
+    <div class="carousel1_item">
+        <div id="comma_0889"><i class="fa-solid fa-quote-left"></i> </div>
+        <p>Who doesn't want to get pampered? And this bag is all you need when you want to show some extra 
+            love to yourself. Every other product is of the best quality. And top of it doesn't burn a hole
+             in your pocket. Every month I just wait for my bag as a small kid waits for her favourite toy. 
+             This Fab Bag is an upright bliss. </p>
+            <p>- Anushree</p>
+    </div>
+
+    <div class="carousel1_item">
+        <div id="comma_0889"><i class="fa-solid fa-quote-left"></i> </div>
+        <p>I am getting addicted to Fab Bag's. The first one I had ordered was simply to check it out 
+            as my friend had recommended. I am not someone who spends a lot of time thinking about beauty 
+            products and I am clueless when it comes to such matters. Which is why the Fab Bag's are perfect 
+            for me. This August Fab Bag had everything I needed! The product curation is perfect. It's like 
+            having my own personal shopper for beauty products and such pretty bags too.
+        </p>
+            <p>- Saileena</p>
+    </div>
+
+    <div class="carousel1_item">
+        <div id="comma_0889"><i class="fa-solid fa-quote-left"></i> </div>
+        
+        <p>The products are amazing and I am just in love with the bag! Kudos to you team!    </p>
+            <p>- Niranjana</p>
+    </div>
+
+    <div class="carousel_actions1">
+        <button id="carousel_buttom1--prev"><</button>
+        <button id="carousel_buttom1--next">></button>
+    </div>
+</div>
+
+
+<!-- last html -->
+<div id="slide_09">
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img class="lastimg0998"
+                src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/sugar_1_160x160.jpg?v=1548837170"
+                alt="image" /></div>
+        <div class="item"><img class="lastimg0998"
+                src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Plum_Logo_For_Olive_and_Macadamia_Hair_Spa_Kit_160x160.png?v=1625063052"
+                alt="image" /></div>
+        <div class="item"><img class="lastimg0998"
+                src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Tru_hair_logo_160x160.png?v=1625063080"
+                alt="image" /></div>
+        <div class="item"><img class="lastimg0998"
+                src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/WOC_Beauty_Logo_160x160.jpg?v=1602225835"
+                alt="image" /></div>
+        <div class="item"><img class="lastimg0998"
+                src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Baiser_India_Logo_160x160.jpg?v=1625063066"
+                alt="image" /></div>
+        <div class="item"><img class="lastimg0998"
+                src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/6256280-43d286588b4beafb0e4a423acf72a620-medium_jpg_5e3480ef-0e7a-4aea-88d0-c48379ad9837_160x160.jpg?v=1599290601"
+                alt="image" /></div>
+        <div class="item"><img class="lastimg0998"
+                src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/brick-new-york-with-symbol-white_46f7f93d-9ac3-4a6b-8827-7341564c001c_160x160.png?v=1599126230"
+                alt="image" /></div>
+        <div class="item"><img class="lastimg0998"
+                src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/palmers-logo_33a73358-5f3d-4cd4-ac8c-ecf89a2c72b2_160x160.jpg?v=1597725541"
+                alt="image" /></div>
+        <div class="item"><img class="lastimg0998"
+                src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/LLW1vAyf_400x400_36a490d2-defb-4c90-898d-2af5215e8433_160x160.jpg?v=1578730298"
+                alt="image" /></div>
+        <div class="item"><img class="lastimg0998"
+                src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/719h_SoVZLL._SX466_160x160.jpg?v=1594029424"
+                alt="image" /></div>
+
+    </div>
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
     <div id="footer_"></div>
 </body>
 </html>
