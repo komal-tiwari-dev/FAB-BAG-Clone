@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../landing-page1/index.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../styles/footer.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+        #heading{
+            text-align: center;
+            width: 73%;
+            border-bottom: 2px solid #E5B95F;
+            margin: auto;
+            margin-top:110px;
+        }
+
+        h2{
+            font-weight: bolder;
+            font-size: 20px;
+            font-style: italic;
+        }
+
+        #g_form{
+            width: 75%;
+            height: 1200px;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 55px;
+            text-align: center;
+        }
+        iframe{
+            margin: auto;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="navbar"></div>
+
+    <div id="heading">
+        <h2>COLLABORATE WITH FAB BAG</h2>
+    </div>
+    
+
+    <div id="g_form">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfXC-KgrLpN3oQdmGkeX6RVrFo_bKVXDjKRU8Sli22f2PwVmg/viewform" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>   
+
+
+    <div id="footer_"></div>
+    
+</body>
+</html>
+
+
+<script type="module">
+
+    import { footer2 } from '../components/footer.js';
+    
+    document.getElementById('footer_').innerHTML = footer2();
+    
+    import { navbar } from '../landing-page1/component/navbar.js';
+    
+    document.getElementById('navbar').innerHTML = navbar();
+    
+</script>

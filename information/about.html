@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../landing-page1/index.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../styles/footer.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #heading{
+            text-align: center;
+            width: 75%;
+            border-bottom: 2px solid #E5B95F;
+            margin: auto;
+            margin-top:110px;
+        }
+
+        #content{
+            width: 78%;
+            margin: auto;
+            margin-bottom: 160px;
+        }
+
+        h2{
+            font-weight: bolder;
+            font-size: 20px;
+            font-style: italic;
+        }
+
+        #content p{
+            font-size: 14px;
+            letter-spacing: 0.3px;
+            text-align: justify;
+            line-height: 24px;
+            margin-bottom: 30px;
+        }        
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="navbar"></div>    
+
+    <div id="heading">
+        <h2>ABOUT US</h2>
+    </div>
+
+    <div id="content">
+        <p>At FAB BAG, we are beauty experts and addicts driven by our passion for high-quality beauty products
+             and delightful service. We recognize that our members are beauty enthusiastic women looking for great
+              products that would work for their specific beauty needs and tastes, but do not have enough time, 
+              access or resources to try out and experience all that is available. We work hard in association with
+               brands to select 3 or more amazing products exclusively customized for each member and send them in
+                a delightful bag to her doorstep every month so that she never has to make the expensive mistake of
+                 buying products that do not work for her! We also advise members on how to make the best use of 
+                 these products and keep them abreast of the latest beauty and fashion trends.</p> 
+        <p>We are growing our network of beauty addicts, experts and brands and would love to hear from you Contact Us</p>
+    </div>    
+
+
+    <div id="footer_"></div>
+    
+</body>
+</html>
+
+
+<script type="module">
+
+import { footer2 } from '../components/footer.js';
+
+document.getElementById('footer_').innerHTML = footer2();
+
+import { navbar } from '../landing-page1/component/navbar.js';
+
+document.getElementById('navbar').innerHTML = navbar();
+
+</script>

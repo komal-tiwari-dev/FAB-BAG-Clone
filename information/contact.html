@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../landing-page1/index.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../styles/footer.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+        #contact-form{            
+            width: 75%;
+            margin: auto;
+            /* border: 1px solid red; */
+            display: flex;
+            margin-top: 98px;
+            
+        }
+        #left_{
+            width: 65%;
+            /* border: 1px solid black; */
+        }
+        #right_{
+            width: 35%;
+            /* border: 1px solid black; */
+            background-color: rgb(247, 242, 242);
+        }
+        #left_ > h1{
+            margin-top: 100px;
+        }
+        #left_ > input{
+            width: 46%;
+            height: 40px;
+            padding-left: 10px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        #left_ > textarea{
+            width: 95%;
+            height: 100px;
+            padding: 10px 0px 0px 11px;
+            font-size: 16px;
+            margin-top: 40px;
+        }
+        #left_ > input, #left_ > textarea{
+            border: none;
+            border-bottom: 1px solid rgb(218, 216, 216);            
+        }
+        #left_ > button{
+            width: 97%;
+            height: 44px;
+            border: none;
+            border-radius: 5px;
+            background-color: #E5B95F;
+            text-align: left;
+            padding-left: 12px;
+            font-weight: bolder;
+            letter-spacing: 1px;
+            margin-top: 50px;
+        }
+        #left_ > button:hover{
+            cursor: pointer;
+        }
+        #right_ > h1{
+            padding: 36px;
+            margin-top: 64px;
+        }
+        #right_ > p{
+            font-size: 14px;
+            margin-left: 36px;
+            color: #777777;
+            font-weight: bold;        
+        }
+        #right_ > p > span{
+            color: black;
+        }
+        #right_ > p > span:hover{
+            color: #E5B95F;
+            cursor: pointer;
+        }
+        .d{
+            margin-bottom: -10px;
+        }
+        .dd{
+            margin-bottom: 30px;
+        }
+        .dl{
+            margin-bottom: 100px;
+        }
+        #newsltr{
+            background-color: rgb(247, 242, 242);
+            height: 180px;
+            margin-bottom: 60px;
+        }
+        #newsltr > div{
+            width: 75%;
+            height: 100%;
+            margin: auto;
+            /* border: 1px solid grey; */
+            display: flex;
+        }
+        #newsltr > div > div{
+            width: 50%;
+            /* border: 1px solid grey;             */
+        }
+        #newsltr h1{
+            margin: 50px 0px -20px 0px;
+        }
+        #newsltr h3{
+            color: rgb(91, 88, 88);
+        }
+        #newsltr > div > div:nth-child(2){
+            display: flex;
+            align-items: center;
+        }
+        #newsltr input{
+            width: 68%;
+            height: 45px;
+            padding-left: 10px;
+            border: none;
+        }
+        #newsltr button{
+            padding: 15px 30px 15px 30px;
+            background-color: #E5B95F;
+            border: none;
+            font-size: 14px;
+            letter-spacing: 1px;
+            margin-left: 10px;
+        }
+        #newsltr button:hover{
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="navbar"></div>
+
+    <div id="contact-form">
+
+        <div id="left_">
+            <h1>Contact Us</h1>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email"> <br> 
+            <textarea name="" id=""  placeholder="Your Comment" ></textarea>
+            <button>SEND MESSAGE</button>
+        </div>
+
+        <div id="right_">
+            <h1>We Want To Hear From You And We're Happy To Help!</h1>
+
+            <p class="dd">Mail us on <span>Crew@FabBag.com</span> </p>
+            <p class="d">Call : <span>022-6805-6010</span> </p>
+            <p class="dd">(Monday to Friday : 9 AM - 7 PM).</p>
+            <p class="d">Office Address :</p>
+            <p class="d">A-004, Boomerang Business Park,</p>
+            <p class="d">Chandivali Farm Road, Powai.</p>
+            <p class="d">Mumbai - 400072.</p>
+            <p class="d">Maharashtra.</p>
+            <p class="dl">IN.</p>
+        </div>
+
+    </div>
+
+    <div id="newsltr">
+        <div>
+            <div>
+                <h1>Newsletter</h1>
+                <h3>Subscribe now to get daily updates</h3>
+            </div>
+            <div>
+                <input type="text" placeholder="Your email address" >
+                <button id="sub_">SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer_"></div>
+    
+</body>
+</html>
+
+<script type="module">
+
+import { footer2 } from '../components/footer.js';
+
+document.getElementById('footer_').innerHTML = footer2();
+
+import { navbar } from '../landing-page1/component/navbar.js';
+
+document.getElementById('navbar').innerHTML = navbar();
+
+</script>
