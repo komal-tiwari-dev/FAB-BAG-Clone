@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <link rel="stylesheet" href="./styles/navbar.css">
+
+    <link rel="stylesheet" href="./styles/footer.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+
+    <style>
+        #myCart {
+            font-size: 30px;
+            margin-left: 180px;
+            margin-top: 120px;
+        }
+
+        #container {
+            /* border: 1px solid black; */
+            width: 76%;
+            height: 200px;
+            margin: auto;
+            display: flex;
+            margin-top: 50px;
+        }
+
+        #_details {
+            /* border: 1px solid black; */
+            width: 66%;
+        }
+
+        #_pricing {
+            /* border: 1px solid black; */
+            width: 34%;            
+            background-color: #f7f7f7;
+            /* background-color: #dbd1d1; */
+            margin-left: 10px;
+        }
+        
+
+        #_head {
+            display: flex;
+            justify-content: space-between;            
+            height: 30%;
+        }        
+
+        #_foot {
+            /* border: 1px solid black; */
+            height: 70%;
+        }
+
+        #_head, #_foot{
+            border-bottom: 1px solid rgb(204, 199, 199);
+        }        
+
+        #qty_price{
+            display: flex;
+        }
+
+        #qty_price{
+            width: 30%;
+        }
+
+        #qty_price > div{
+            width: 40%;
+        }
+
+        #_head p{
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        #_foot{
+            display: flex;
+            justify-content: space-between;
+        }        
+
+        #_foot img{
+            width: 95%;
+            margin-top: 5px;
+        }
+
+        #_foot > div{
+            display: flex;
+            align-items: center;
+        }
+
+        #_foot > div:nth-child(2) > p{
+            font-size: 14px;
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+
+        #_foot > div:nth-child(3){
+            width: 10%;
+        }
+
+        #_foot > div:nth-child(3) > input{
+            width: 80%;
+            height: 30px;
+            margin-left: 0px;
+            text-align: center;
+        }
+
+        #_foot > div:nth-child(4){
+            width: 10%;
+        }
+
+        #_foot > div:nth-child(5){
+            width: 6%;
+        }
+
+        #_foot i{
+            font-size: 20px;
+            color: grey;
+        }
+
+        #check_price{
+            font-size: 14px;
+        }
+
+        #_keemat{
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: auto;
+            font-size: 14px;
+            font-weight: 600;            
+        }
+
+        #update {
+            margin-bottom: 20px;
+            width: 90%;
+            height: 48px;
+            border-radius: 5px;
+            border: none;
+            background-color: #343434;
+            color: white;
+            display: block;
+            margin: auto;
+        }
+
+        #update:hover{
+            background-color: #e5b95f;
+            cursor: pointer;
+        }
+
+        #check {
+            margin-bottom: 20px;
+            width: 90%;
+            height: 48px;
+            border-radius: 5px;
+            border: none;
+            background-color: #e5b95f;
+            color: white;
+            display: block;
+            margin: auto;
+        }    
+        
+        #check:hover{
+            background-color: #343434;
+            cursor: pointer;
+        }
+
+        #footer_ {
+            margin-top: 130px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div id="navbar"></div>
+
+    <p id="myCart">My Cart</p>
+
+    <div id="container">
+
+
+        <div id="_details">
+
+            <div id="_head">
+
+                <div id="_prod">
+                    <p>PRODUCT</p>
+                </div>
+
+                <div id="qty_price" >
+                    <div>
+                        <P>QTY</P>
+                    </div>
+                    <div>
+                        <P>PRICE</P>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="_foot">
+
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Skincare-1_compact.gif?v=1651909062"
+                    alt="">
+                </div>
+
+                <div>
+                    <p>The AweSummer May Fab Bag 1 Month</p>
+                </div>
+
+                <div>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <p id="check_price">Rs. 1,198.00</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div id="_pricing">
+
+
+            <div id="_keemat">
+                <p>TOTAL PRICE :</p>
+                <p>Rs. 1,198.00</p>
+            </div>
+
+            <button id="update">UPDATE CART</button>
+            <br>
+            <button onclick="checkout()" id="check">CHECK OUT</button>
+
+        </div>
+
+
+    </div>    
+
+
+    <div id="footer_"></div>
+
+</body>
+
+</html>
+
+
+
+
+<script type="module">
+
+    import { footer2 } from './components/footer.js';
+
+    document.getElementById('footer_').innerHTML = footer2();
+
+    import { navbar } from './components/navbar.js';
+
+    document.getElementById('navbar').innerHTML = navbar();
+
+</script>
+
+
+<script>
+    function checkout() {
+        window.location.href = "checkout.html"
+    }
+</script>

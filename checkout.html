@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+
+  
+
+
+    <style>
+
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #container {
+            border: none;
+            height: 980px;
+            width: 90%;
+            margin: auto;
+            display: flex;
+            margin-left: 130px;
+        }
+        #box1 {
+            border: none;
+            height: 950px;
+            width: 50%;
+            
+        }
+        img {
+            height: 60px;
+            width: 45%;
+            margin-left: 155px;
+            margin-top: 30px;
+        }
+        #options {
+          text-align: center;
+          font-size: 15px;
+          margin-right: 60px;
+        }
+        #span1 {
+            margin-left: 200px;
+        }
+        input {
+            margin-top: 20px;
+            
+        }
+        #city {
+          width: 30%;  
+          height: 30px;
+        }
+        #state {
+          width: 30%;
+          height: 30px;
+        }
+        #pin {
+            width: 30%;
+            height: 30px;
+        }
+        #mail, #firstName, #lastName, #company, #address, #apartment, #number {
+            width: 90%;
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid #c8c8c8;
+            padding-left: 10px;
+        }
+
+        #city, #state, #pin{
+            width: 28.25%;
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid #c8c8c8;
+            margin-right: 6px;
+            padding-left: 10px;
+        }
+
+        #state{
+            height: 40px;
+        }
+
+        #country{
+            width: 92%;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid #c8c8c8;
+            padding-left: 10px;
+        }
+        .p1 {
+            font-size: 20px;
+        }
+        #span1 {
+            font-size: 15px;
+            color: #736f6f;
+            margin-left:250px;
+        }
+        .s {
+            cursor: auto;
+            color: #736f6f;
+        }
+        .fa-angle-left{
+            font-size: 12px;
+        }
+        #shipping {
+            margin-left: 420px;
+            margin-top: -20px;
+            height: 50px;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            width: 30%;
+            font-size: 16px;
+        }
+        #inner_div {
+            border: 1px solid black;
+            width: 100%;
+            height: 140px;
+            margin-right: 200px;
+            margin-top: 60px;
+            display: flex;
+            border-left: none;
+           border-right: none;
+           border-top: none;
+           border-bottom: none;            
+        }
+        #_last{
+            border-top: 1px solid rgb(196, 196, 196);
+            width: 90%;
+            /* margin: auto; */
+            margin-top: 50px;
+            display: flex;
+            font-size: 12px;
+        }
+
+        #_last> p{
+            margin-right: 20px;
+        }
+
+        #_last> p:hover{
+            cursor: pointer;
+        }
+
+        #img2 {
+          width:15%;  
+          height: 60px; 
+          margin-left: 70px;          
+        }
+        #the {
+           margin-top: 40px; 
+           margin-right:10px;
+           margin-left: -60px;
+           width: 35%;
+           font-size: 14px;
+        }
+        #pri {
+            margin-top: 50px; 
+            float: right;
+           /* margin-right:-70px; */
+           margin-left: 20px;
+        }
+        #discount {
+            width: 65%;
+            height: 35px; 
+            border-radius: 5px;
+            outline-color: black;
+            border: 1px solid #c8c8c8 ;
+            margin-left: 25px;
+            margin-bottom: 25px;
+            padding-left: 10px;
+            
+            
+        }
+        #apply {
+            width: 8%;
+            padding: 10px;
+            padding-right: 50px;
+            padding-left: 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #c8c8c8;
+            color: white;
+        }
+       #inner_div2 {
+           border: 1px solid black;
+           margin-left: 75px;
+           width: 73%;
+           border-left: none;
+           border-right: none;
+           border-top: 1px solid rgb(159, 158, 158);
+           border-bottom: 1px solid rgb(204, 199, 199);
+           
+       }
+       #inner_div3 {
+           
+           margin-left: 75px;
+           width: 73%;
+           height: 90px;
+           border-left: none;
+           border-right: none;
+           border-top: 1px solid rgb(204, 199, 199);
+           border-bottom: 1px solid rgb(204, 199, 199);
+       }
+       #inner_div4 {
+           border: 1px solid black;
+           margin-left: 75px;
+           width: 73%;
+           height: 90px;
+           border-left: none;
+           border-right: none;
+           border-top: 1px solid rgb(204, 199, 199);
+           border-bottom: NONE;
+          
+       }
+       #subtotal {
+           margin-left: 235px;
+       }
+       #ship {
+           margin-left: 155px;
+           font-size: 15px;
+       }
+       #inr {
+          margin-left: 165px; 
+       }
+       #total {
+           font-size: 30px;
+       }
+       #box2 {
+          
+          width: 40%;
+          background-color: #f7f7f7;
+       }
+       
+    </style>
+</head>
+<body>
+   <div id="container">
+       <div id="box1">
+
+           <div>
+               <img id="fabbag" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO-FINAL.png?10428" alt="">
+               <p onclick="cart()" id="options" style="cursor: pointer;">Cart <i class="fa-solid fa-angle-right"></i> <span class="s">Information <i class="fa-solid fa-angle-right"></i></span> <span class="s">Shipping <i class="fa-solid fa-angle-right"></i></span><span class="s"> Payment</span></p>
+           </div>
+
+              <div>
+                 <p class="p1">Contact information <span id="span1">Already have an account? Log in</span></p> 
+                 <form action="">
+                     <input id="mail" type="mail" placeholder="Email">
+                     <br>
+                    
+                     <span><input type="checkbox" ><span></span> Email me with news and offers</span>
+                     
+                    <p class="p1">Shipping address</p>
+                   <select name="" id="country">
+                       <option value="">India</option>
+                   </select>
+                   <br>
+                   <input id="firstName" type="text" placeholder="First name">
+                   <br>
+                   <input id="lastName" type="text" placeholder="Last name">
+                   <br>
+                   <input id="company" type="text" placeholder="Company (optional)"> 
+                   <br>
+                   <input id="address" type="text" placeholder="Address">
+                   <br>
+                   <input id="apartment" type="text" placeholder="Apartment, suite ,etc. (optional)">
+                   <br>
+                   <input id="city" type="text" placeholder="City">
+                   <select name="State" id="state">
+                       <option value="">State</option>
+                       <option value="Andman and Nicobar Islands">Andman and Nicobar Islands </option>
+                       <option value="Andhra Pradesh">Andhra Pradesh</option>
+                       <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                       <option value="Assam">Assam</option>
+                       <option value="Bihar">Bihar</option>
+                       <option value="Chandigarh">Chandigarh</option>
+                       <option value="Chattisgarh">Chattisgarh</option>
+                       <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                       <option value="Daman and Diu">Daman and Diu</option>
+                       <option value="Delhi">Delhi</option>
+                       <option value="Goa">Goa</option>
+                       <option value="Gujarat">Gujarat</option>
+                       <option value="Haryana">Haryana</option>
+                       <option value="Himachal Pradesh">Himachal Pradesh</option>
+                       <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                       <option value="Jharkhand">Jharkhand</option>
+                       <option value="Karnataka">Karnataka</option>
+                       <option value="Kerala">Kerala</option>
+                       <option value="Ladakh">Ladakh</option>
+                       <option value="Lakshadweep">Lakshadweep</option>
+                       <option value="Madhya Pradesh">Madhya Pradesh</option>
+                       <option value="Maharashtra">Maharashtra</option>
+                       <option value="Manipur">Manipur</option>
+                       <option value="Meghalaya">Meghalaya</option>
+                       <option value="Mizoram">Mizoram</option>
+                       <option value="Nagaland">Nagaland</option>
+                       <option value="Odisha">Odisha</option>
+                       <option value="Puducherry">Puducherry</option>
+                       <option value="Punjab">Punjab</option>
+                       <option value="Rajasthan">Rajasthan</option>
+                       <option value="Sikkim">Sikkim</option>
+                       <option value="Tamil Nadu">Tamil Nadu</option>
+                       <option value="Telangana">Telangana</option>
+                       <option value="Tripura">Tripura</option>
+                       <option value="Uttar Pradesh">Uttar Pradesh</option>
+                       <option value="Uttarakhand">Uttarakhand</option>
+                       <option value="West Bengal">West Bengal</option>
+                   </select>
+                   <input  type="text" name="" id="pin" placeholder="PIN code">
+                   <br>
+                  <input id="number" type="number" placeholder="Phone">
+                  <br>
+                  <input type="checkbox" name="" id=""><span>Save this information for next time</span>
+                 </form>
+                 <p onclick="cart2()" style="cursor: pointer;"> <i class="fa-solid fa-angle-left"></i> Return to cart <span></span></p>
+                 <button onclick="cart3()" id="shipping">Continue to shipping</button>
+              </div>
+
+
+              <div id="_last">
+                  <p>Return Policy</p>
+                  <p>Privacy Policy</p>
+                  <p>Terms of service</p>
+              </div>
+       </div>
+
+
+       
+       <div id="box2">
+            <div id="inner_div">
+
+                  
+                      <img id="img2" style="margin-right: 79px;" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Skincare-1_small.gif?v=1651909062" alt=""><span id="the">The AweSummer May Fab Bag</span><span id="pri">₹1,198.00</span>
+                   
+             </div>
+             
+             <div id="inner_div2">
+                <input id="discount" type="text" placeholder="Discount code" > 
+                <button id="apply">Apply</button>
+             </div>
+            
+
+             <div id="inner_div3">
+               <p>Subtotal <span id="subtotal">₹1,198.00<span></p>
+               <p>Shipping<span id="ship">Calculated at next step</span></p>
+             </div>
+
+             <div id="inner_div4">
+                 <p>Total <span id="inr">INR <span id="total">₹1,198.00</span></span></p>
+             </div>
+       </div>
+   </div> 
+</body>
+</html>
+
+<script>
+
+    function cart(){
+        window.location.href= "my_cart.html"
+    }
+    function cart2(){
+        window.location.href= "my_cart.html"
+    }
+    function cart3(){
+        window.location.href= "shipping.html"
+    }
+</script>

@@ -5,10 +5,11 @@
     box-sizing: border-box;
 }
 #universe{
-  width: 100%;
+  width: 75%;
+  margin: auto;
   height: 44.375rem;
-  padding: 0 3.5625rem 0 3.5625rem;
-  display: flex;
+  padding: 0 3.5rem 0 3.5rem;
+  display: flex;   
 }
 #left_div{
     width: 37rem;
