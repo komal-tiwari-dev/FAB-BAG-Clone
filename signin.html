@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title></title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=poppins:100,300,300italic,400,400italic,500,600,700,700italic,900,900italic"
+    rel="stylesheet" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=roboto:100,300,300italic,400,400italic,500,600,700,700italic,900,900italic"
+    rel="stylesheet" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=montserrat:100,300,300italic,400,400italic,500,600,700,700italic,900,900italic"
+    rel="stylesheet" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=roboto:100,300,300italic,400,400italic,500,600,700,700italic,900,900italic"
+    rel="stylesheet" type="text/css" />
+
+  <!-- font awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://kit.fontawesome.com/0e3d6c2c8d.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+  <link rel="stylesheet" href="./styles/signin.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/navbar.css">
+
+  <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+  <!-- <style type="text/css">
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+      }
+      .container {
+        padding-top: 50px;
+        position: relative;
+        width: 400px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: auto;
+        display: block;
+        box-sizing: border-box;
+        /*text-align: center;*/
+      }
+      .facebook {
+        color: #fff;
+        border-color: #2d5073;
+        background-color: #3b5998;
+      }
+      .google {
+        color: #fff;
+        border-color: #c23321;
+        background-color: #dd4b39;
+      }
+      .create-account h1 {
+        color: #161616;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: normal;
+        margin: 0 0 40px;
+        outline: none;
+        text-align: center;
+      }
+      a {
+        text-align: left;
+        padding-left: 20px;
+        height: 40px;
+        display: block;
+        background-size: 40px 40px;
+        border-radius: 4px;
+        font-family: "Merriweather Sans", sans-serif;
+        font-size: 14px;
+        margin-bottom: 8px;
+        -webkit-font-smoothing: antialiased;
+        line-height: 40px;
+        text-decoration: none;
+      }
+      .create-account label {
+        margin-bottom: 7px;
+        font-weight: 700;
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+      }
+      .create-account input {
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: 0 1px 3px #0000, 0 1px 2px #0000;
+        border-color: #e5e5e5;
+        height: 40px;
+        border: 1px #e5b95f solid !important;
+        outline: #e5b95f;
+        font: inherit;
+        color: inherit;
+        text-align: start;
+        appearance: auto;
+        -webkit-rtl-ordering: logical;
+        cursor: text;
+        background-color: -internal-light-dark(
+          rgb(255, 255, 255),
+          rgb(59, 59, 59)
+        );
+      }
+      .create-account .req {
+        font-size: 14px;
+        font-weight: 700;
+        color: red;
+      }
+      .create-account input[type="submit"],
+      .create-account input[type="button"] {
+        align-items: flex-start;
+        text-align: center;
+        width: 100%;
+        margin: 20px 0;
+        height: 40px;
+        line-height: 40px;
+        padding: 0;
+        box-shadow: none;
+        border: 0;
+        letter-spacing: 1px;
+        font-size: 1.1em;
+        font-weight: 500;
+        background: #e5b95f !important;
+        border-color: #e5b95f !important;
+        color: #252525 !important;
+      }
+      .create-account input[type="submit"]:hover,
+      .create-account input[type="button"]:hover {
+        background: #000 !important;
+        border-color: #e5b95f !important;
+        color: #fff !important;
+      }
+      .required {
+        float: left;
+        color: #f1152f;
+        display: inline-block;
+      }
+      .forget {
+        float: right;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+        color: #000;
+      }
+      .flexBox{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 1rem;
+      }
+    </style> -->
+</head>
+
+<body>
+
+  <div id="navv"></div>
+  <div class="container">
+    <div class="row">
+      <div class="create-account">
+        <h1>Sign In</h1>
+        <div class="social-icon">
+          <a href="https://www.facebook.com/login/" target="blank" class="facebook flexBox"><span>Sign In with
+              Facebook</span> <i class="fab fa-facebook"></i></a>
+          <a href="" class="google flexBox"><span>Sign In with Google</span> <i class="fab fa-google"></i></a>
+        </div>
+        <form>
+          <div>
+            <label for="username">username<span class="req">*</span></label>
+            <input type="text" id="username" />
+          </div>
+          <div>
+            <label for="password">Password<span class="req">*</span></label>
+            <input type="password" id="password" />
+          </div>
+
+          <p class="required">*Required Fields</p>
+          <a class="forget" href="">Forgot Your Password?</a>
+
+          <div class="button-set">
+            <input type="submit" class="btn" id="signin" value="Sign In" />
+          </div>
+          <center>
+            <p>Or</p>
+          </center>
+          <div class="button-set">
+          
+            <a href="./signup.html" class="btn" id="create">  <input type="button" value="Create An Account" onclick="gotosignup()" /></a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="foott"></div>
+</body>
+
+</html>
+
+
+<script src="./script/signin.js" type="module"></script>
