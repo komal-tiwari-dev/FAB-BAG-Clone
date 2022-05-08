@@ -33,7 +33,7 @@ function navbar(){
                             </li>
                             <hr />
                             <li>
-                                <a href="#">
+                                <a href="./signup.html">
                                     <p class="acc">Sign Up</p>
                                 </a>
                             </li>

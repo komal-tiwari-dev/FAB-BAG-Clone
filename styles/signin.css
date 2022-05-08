@@ -1,0 +1,137 @@
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+.container {
+  padding-top: 50px;
+  position: relative;
+  width: 400px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  display: block;
+  box-sizing: border-box;
+  /*text-align: center;*/
+}
+.facebook {
+  color: #fff;
+  border-color: #2d5073;
+  background-color: #3b5998;
+}
+.google {
+  color: #fff;
+  border-color: #c23321;
+  background-color: #dd4b39;
+}
+.create-account h1 {
+  color: #161616;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: normal;
+  margin: 0 0 40px;
+  outline: none;
+  text-align: center;
+}
+
+.create-account label {
+  margin-bottom: 7px;
+  font-weight: 700;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+.create-account input {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 0;
+  box-shadow: 0 1px 3px #0000, 0 1px 2px #0000;
+  border-color: #e5e5e5;
+  height: 40px;
+  border: 1px #e5b95f solid !important;
+  outline: #e5b95f;
+  font: inherit;
+  color: inherit;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: -internal-light-dark(
+    rgb(255, 255, 255),
+    rgb(59, 59, 59)
+  );
+}
+.create-account .req {
+  font-size: 14px;
+  font-weight: 700;
+  color: red;
+}
+.create-account input[type="submit"],
+.create-account input[type="button"] {
+  align-items: flex-start;
+  text-align: center;
+  width: 100%;
+  margin: 20px 0;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  box-shadow: none;
+  border: 0;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  font-weight: 500;
+  background: #e5b95f !important;
+  border-color: #e5b95f !important;
+  color: #252525 !important;
+}
+.create-account input[type="submit"]:hover,
+.create-account input[type="button"]:hover {
+  background: #000 !important;
+  border-color: #e5b95f !important;
+  color: #fff !important;
+}
+.required {
+  float: left;
+  color: #f1152f;
+  display: inline-block;
+}
+.forget {
+  float: right;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.flexBox{
+  text-align: left;
+  padding-left: 20px;
+  height: 40px;
+  display: block;
+  background-size: 40px 40px;
+  border-radius: 4px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+  margin-bottom: 8px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 40px;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 1rem;
+}
+
+#create{
+  text-decoration: none;
+  
+}

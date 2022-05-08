@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=poppins:100,300,300italic,400,400italic,500,600,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=roboto:100,300,300italic,400,400italic,500,600,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=montserrat:100,300,300italic,400,400italic,500,600,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=roboto:100,300,300italic,400,400italic,500,600,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+	  <!-- font awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/0e3d6c2c8d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+
+<link rel="stylesheet" href="./styles/signup.css">
+<link rel="stylesheet" href="./styles/footer.css">
+<link rel="stylesheet" href="./styles/navbar.css">
+
+<script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+
+</head>
+<body>
+	<div id="navv"></div>
+
+	<div class="container">
+		<div class="row">
+			<div class="create-account">
+				<h1>Create An Account</h1>
+				<div class="social-icon">
+					<a href="" class="facebook flexBox"><span>Sign In with Facebook</span> <i class="fab fa-facebook"></i
+            ></a>
+					<a href="" class="google flexBox"><span>Sign In with Google</span> <i class="fab fa-google"></i
+            ></a>
+				</div>
+				<form>
+					
+				
+					<div>
+						<label for="name">Name<span class="req">*</span></label>
+						<input type="text" id="name" required>
+					</div>
+					<div>
+						<label for="email">Email<span class="req">*</span></label>
+						<input type="text" id="email" required>
+					</div>
+
+					<div>
+						<label for="password">Password<span class="req">*</span></label>
+						<input type="text" id="password" required>
+					</div>
+
+					<div>
+						<label for="username">Username<span class="req">*</span></label>
+						<input type="text" id="username" required>
+					</div>
+					
+					
+
+					<div>
+						<label for="mobile">Mobile<span class="req">*</span></label>
+						<input type="text" id="mobile" required>
+					</div>
+
+					<div>
+						<label for="description">Description<span class="req">*</span></label>
+						<input type="text" id="description" required>
+					</div>
+					
+					
+					
+					
+					
+					<div class="button-set">
+						<!-- <input type="submit" class="btn" value="Create an Account" onclick="register(event)"> -->
+						<input type="submit" class="btn" value="Create an Account" id="submit">
+					
+					</div>
+					<center><p id="Or">Or</p></center>
+					<div class="button-set">
+					<a id="xx" href="./signin.html"><input type="button" class="btn" value="Sign in" onclick="gotosignin()"></a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+		<div id="foott"></div>
+</body>
+</html>
+
+
+<script src="./script/signup.js" type="module"></script>
