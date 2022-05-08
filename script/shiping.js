@@ -86,3 +86,19 @@ console.log(loginData.email)
 let user_email = document.querySelector("#email2347");
 
 user_email.innerHTML = loginData.email;
+
+
+
+
+// sping cart
+let sppingData = JSON.parse(localStorage.getItem("addData"));
+
+let ptag = document.querySelector("#put0889");
+
+
+sppingData.map(function(el,index,arr) {
+    let ptag = document.querySelector("#put0889");
+    ptag.innerText= null;
+
+    ptag.innerText= `${el.city}, ${el.state}, ${el.pin}`
+})
