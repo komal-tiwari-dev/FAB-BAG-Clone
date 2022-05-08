@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping</title>
+    <link rel="stylesheet" href="./styles/shippimng.css">
+
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="universe">
+      <div id="left_div">
+<!--=========================================Header=========================================>  -->
+          <div id="header230">
+              <div id="img_div230">
+                <img id="logo230" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO-FINAL.png?10428" alt="logo">
+              </div>
+              <div id="icon">
+                <p> <a href="#">Information</a> <span><i class="fa-solid fa-angle-right"></i></span><p>
+                    <p><a href="#">Shipping</a> <span ><i class="fa-solid fa-angle-right"></i></span></p>
+                    <p> <a href="paymentpage.html">Payment</a></p>
+              </div>
+          </div>
+<!-- <========================================Header End=============================================== -->
+<!-- <========================================User Deatails============================================>  -->
+          <div id="userD230">
+            <div id="shippingAdd-div230">
+                <div id="radio230">
+                    <p>Contact</p>
+                </div>
+                <div id="email230">
+                    <p id="email2347"></p>
+                    <a href="#">Change</a>
+                </div>
+            </div>
+
+            <div id="ChangeAdd-div230">
+                <div id="radio230">
+                    <p>Ship to</p>
+                </div>
+                <div id="address230">
+                    <p>Tollygaunge, Kolkata, 700017</p>
+                    <a href="#">Change</a>
+                </div>
+            </div>
+          </div>
+<!--<=============================User Details DIv End==================================================-->
+<!--<=============================Shipping Method Div Start============================================ -->
+           <div id="shippingDiv230">
+                 <h3 id="top230">Shipping Method</h3>
+               <div id="border230">
+                <div id="online230">
+                        <div id="section1"> 
+                            <div class="radio-input-div230">
+                                <input type="radio" class="input-radio" id="card-display" value="button" name="button2" onclick="BackToCard()" >
+                            </div>
+                        
+                            <div id="para230">
+                                    <p class="ptag230">	Free Standard Shipping ( Debit Card / Credit Card / Net Banking / PayTM )</p>
+                                    <p class="ptag236">Free</p>
+                            </div>
+                        </div>    
+                </div>
+                <div id="COD230">
+                    <div class="radio-input-div230">
+                        <input type="radio" class="input-radio" id="card-display" value="cerd" name="name1" onclick="Add_COD_Amout()" >
+                    </div>
+
+                    <div id="para231">
+                        <div id="para232">
+                            <p >Cash on Delivery (Rs. 100/- Convenience Charge)</p>
+                            <span class="small_text230">This shipping option is eligible for Cash on Delivery.</span>
+                        </div>
+                        <div>
+                            <p id="cod_charge">₹100.00</p>
+                        </div>
+                    </div>
+                </div>
+               </div>  
+           </div>
+           <!-- <===========================Button Div work=================================== -->
+           <div id="complete230">
+            <div id="return230">
+                <p>
+                     <a href="information.html">
+                         <span><i class="fa-solid fa-angle-left"></i></span> Return to Information
+                     </a>
+                 </p>
+            </div>
+            <div id="completeButton230">
+                <button id="button230"><a href="paymentpage.html"> Continue to Payment</a></button>
+            </div>
+        </div>
+        <!-- ===================================Button Div end====================================== -->
+      </div>
+      <div id="right_div">
+          <!-- =================================Order Summary Top=================================== -->
+          <div id="order_summary230">
+              <div id="img_div242">
+                  <img id="img242" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Skincare-1_small.gif?v=1651909062" alt="mini_logo">
+              </div>
+              <div id="deatail242">
+                <h4>The AweSummer May Fab Bag</h4>
+                <p>1 Month</p>
+              </div>
+              <div id="price242">599.00</div>
+          </div>
+          <!-- =====================================Order Summary End==================================== -->
+
+          <!-- ======================================coupon input div==================================== -->
+
+          <!-- <div id="coupondiv242">
+              <div id="input242">
+                  <input type="text" id="coupon242" placeholder="Discount code" oninput="myFunction()">
+                  <button id="couponApllied242">Apply</button>
+              </div>
+          </div> -->
+
+          <div id="middle-div230">
+            <input type="text" id="coupon230" placeholder="Discount code" oninput="myFunction()">
+            <button id="couponApllied">Apply</button>
+        </div>
+
+          <div id="sub_total_div230">
+            <div id="main230">
+                <div id="subtotal230">
+                    <p>Subtotal</p>
+                    <p id="final-total"></p>
+                </div>
+                <div id="shipping230">
+                    <p>Shipping</p>
+                    <p id="COD_Charge">Free</p>
+                </div>
+            </div>
+            <div id="final_total_div">
+                <div id="top_total"><p>Total</p></div>
+                <div id="inr_div">
+                    <div id="inrSYM"><p>INR</p></div>
+                    <div id="Rupee"></div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
+
+<script src="./script/shiping.js"></script>

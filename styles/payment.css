@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+/* #navbar8777{
+    width: 100%;
+    height: 5rem;
+    border: 1px solid gray;
+} */
+#container{
+    width: 100%;
+    height: 100%;
+    /* margin: auto;
+    margin-top: 4.375rem;
+    
+    height: 25rem;
+    background-color: white; */
+}
+#box{
+    width: 50%;
+    height: 18.375rem;
+    margin: auto;
+    border: 1px solid #a49c9c;
+    margin-top: 6.25rem;
+    padding:2.5rem 1.875rem  1.875rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 0.625rem;
+    /* display: none; */
+}
+#name,#cardnumber{
+    width:98%;
+    height: 1.875rem;
+    
+}
+#cvv,#date{
+    width:45%;
+    height: 1.875rem;
+    outline: none;
+    border-radius: 8px;
+    padding: 0.8rem;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #aeabab;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+#cvv:focus{
+    border: 2px solid black;
+}
+#date:focus{
+    border: 2px solid black;
+}
+button{
+    background-color: #e5b95f;
+    color: white;
+    width: 6.25rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+button:hover{
+    background-color: black;
+}
+
+
+input[type=text] {
+width: 17rem;
+outline: none;
+border-radius: 8px;
+padding: 0.8rem;
+box-sizing: border-box;
+border: 1px solid #aeabab;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+outline: none;
+}
+
+input[type=text]:focus{
+    border: 2px solid black;
+}
+
+
+/* OTP CSS */
+
+#box1{
+    width: 20%;
+    height: 10rem;
+    margin: auto;
+    border: 1px solid #a49c9c;
+    margin-top: 150px;
+    padding:40px 30px  30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    display: none;
+
+}
+
+#name{
+width: 12rem;
+outline: none;
+border-radius: 8px;
+padding: 0.8rem;
+box-sizing: border-box;
+border: 1px solid #aeabab;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+outline: none;
+}
+
+#name:focus{
+    border: 2px solid black;
+}
+
+#button1{
+    background-color: #e5b95f;
+    color: white;
+    width: 6.25rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+#button1:hover{
+    background-color: black;
+}
+
+#shopping{
+    width: 100%;
+    height: 420px;
+    border: 1px solid black;
+    padding: 20px 100px 20px 100px;
+    text-align: center;
+    display: none;
+}
+
+/* #imgdiv281{
+    width: 100;
+    height: 300px;
+    border: 1px solid red;
+    text-align: center;
+} */
+#successimage{
+    width: 100%;
+    height: 90%;
+}
+
+#home281{
+    width: 100%;
+    height: 10%;
+    /* display: flex; */
+    /* text-align: center; */
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:#e5b95f ;
+    cursor: pointer;
+}
+
+#name7{
+width: 12rem;
+outline: none;
+border-radius: 8px;
+padding: 0.8rem;
+box-sizing: border-box;
+border: 1px solid #aeabab;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+outline: none;
+}
+
+#name7:focus{
+    border: 2px solid black;
+}
