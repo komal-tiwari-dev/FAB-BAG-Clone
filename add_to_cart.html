@@ -14,191 +14,14 @@
   <link rel="stylesheet" href="./styles/navbar.css">
 
   <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/add_to.css">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />    
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
 
 
-    <style>
-        #container {
-            border: none;
-            width: 80%;
-            height: 500px;
-            margin: auto;
-            display: flex;
-            margin-top: 160px;
-            
-        }
-        #container>div {
-            border: none;
-            width: 50%;
-            height: 500px;
-            margin: auto;
-        }
-        img {
-            width: 80%;
-            height: 300px;
-            margin-left: 100px;
-        }
-        #smallImg {
-            width: 20%;
-            height: 70px;
-            opacity: 50%;
-        }
-        #headline {
-          font-size: xx-large;
-          margin-top: 0px;  
-        }
-        #price {
-            font-size: xx-large;
-            font-weight: 600;
-            margin-top: -10px;  
 
-        }
-        #plans {
-            font-weight: bold;
-        }
-        #one{
-          background-color: #d3d3d3;
-          padding: 5px;
-          border: none;
-          cursor: pointer;
-          
-          
-        }
-        #three {
-            background-color: #e1e1e1;
-            padding: 5px;
-            border: none;
-            cursor: pointer;
-            margin-left: 20px;
-        }
-        #quantity {
-            border: 1px solid rgb(193, 190, 190);
-            width: 22%;
-            height: 50px;
-            margin-top: 40px;
-            display: flex;
-            justify-content: space-between;
-        } #quantity > button {
-            background-color: white;
-            border: none;
-            
-        }
-        #addToCart{
-            width: 100%;
-            height: 50px;
-            background-color: black;
-            color: white;
-            border: none;
-            margin-top: 20px;
-        }
-        #addToCart:hover {
-          background-color: #e5b95f;
-        
-        }
-        #twitter, #facebook, #google{
-            width: 10%;
-            height: 40px;
-            margin-top: 10px;
-            border: none;
-            background-color: white;
-            cursor: pointer;
-            font-size: 20px;
-        }
-        #twitter:hover{
-            background-color:  rgb(215, 213, 213) ;
-        }
-        #facebook:hover{
-            background-color: rgb(215, 213, 213) ;
-        }
-        #google:hover{
-            background-color:  rgb(215, 213, 213) ;
-        }
-        #dec, #inc {
-            cursor: pointer;
-        }
-
-        #container2 {
-            border: none;
-            height: 500px;
-            width: 60%;
-            margin: auto;
-            margin-top: 50px;
-       
-        }
-        #desc {
-            height: 50px;
-            width: 15%;
-            margin-left: 30px;
-            border-radius: 30px;
-            border: none;
-            background-color: #e5b95f ;
-            margin-top: 10px;
-        }
-        #view {
-            height: 50px;
-            width: 15%;
-            margin-left: 30px;
-            border-radius: 30px;
-            border: none;  
-            background-color: white;   
-        }
-        #return, #customer {
-            height: 50px;
-            width: 20%;
-            margin-left: 30px;
-            border-radius: 30px;
-            border: none; 
-            background-color: white;
-        }
-        #view:hover {
-            background-color: #e5b95f;
-        }
-        #return:hover {
-            background-color: #e5b95f;
-        }
-        #customer:hover {
-            background-color: #e5b95f;
-        }
-        #phew {
-          width: 70%;  
-          text-align: center; 
-          margin-left: 100px;
-         color: #5b5c5e;
-        }
-        /* li {
-            line-height: 30px;
-            margin-left: 100px ;
-            color: #5b5c5e;
-        } */
-        #listInfo {
-            margin-left: 100px ;
-            color: #5b5c5e;
-        }
-        #offers {
-            width: 78%;
-            margin-left: 100px;
-            color: #5b5c5e;
-        }
-        #fab {
-            width: 73%;
-            margin-left: 100px;
-            color: #5b5c5e;
-        }
-        #returnData{
-            display: none;
-        }
-        #descData {
-        display: none;
-        }
-
-        #footer_{
-            margin-top: 100px;
-        }
-        
-    </style>
 </head>
 <body>
 
@@ -214,7 +37,7 @@
        <div>
            <p style="margin-top: 0px;">Home</p>
            <P id="headline">The Awesommer May Fab Bag</P>
-           <p id="price">Rs. 599.00</p>
+           <p id="price">Rs. <span id="price0899"></span></p>
            <p style="color: #788793;">Phew, it's getting hot in here! Unveil the midsummer madness with the hottest beauty staples inside the...</p>
            <p id="plans">Plans</p>
            <button onclick="changePrice()" id="one">1 MONTH</button>
@@ -225,9 +48,9 @@
                  <button id="inc"><i id="plus" class="fa-solid fa-plus"></i></button>
              </div>
              <BUTTON onclick="toCartPage()" id="addToCart">ADD TO CART</BUTTON>
-             <button onclick="twitter()" id="twitter"><i id="twi" style="color: #8c8989; " class="fa-brands fa-twitter"></i></button>
-             <button onclick="facebook()" id="facebook"><i id="face" style="color: #8c8989;" class="fa-brands fa-facebook-f"></i></button>
-             <button onclick="google()" id="google"><i id="goog" style="color: #8c8989;" class="fa-brands fa-google-plus-g"></i></button>
+             <button onclick="twitter()" id="twitter"><i id="twi" class="fa-brands fa-twitter"></i></button>
+             <button onclick="facebook()" id="facebook"><i id="face"  class="fa-brands fa-facebook-f"></i></button>
+             <button onclick="google()" id="google"><i id="goog"  class="fa-brands fa-google-plus-g"></i></button>
        </div>
     </div>
 
@@ -276,70 +99,13 @@
     import { navbar } from './components/navbar.js';
     
     document.getElementById('navbar').innerHTML = navbar();
+    // cart updation
+    document.querySelector("#cartNo099").innerText = count  
     
 </script>
 
-<script>
-      document.getElementById("dec").addEventListener("click", decFun)
-      var count = 1
-    function decFun(){
-        if( count>0){
-            count--
-        }
-        document.getElementById("counter").innerText = count
-    }
-
-    document.getElementById("inc").addEventListener("click", incFun)
-   function incFun(){
-        count++
-        document.getElementById("counter").innerHTML= count
-    }
-
-    function twitter(){
-        window.location.href = "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.fabbag.com%2Fproducts%2Fsubscribe&text=The%20AweSummer%20May%20Fab%20Bag"
-    }
-
-    function facebook(){
-        window.location.href= "https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.p"
-    }
-    function google(){
-        window.location.href = "https://plus.google.com/share?url=https://www.fabbag.com/products/subscribe"
-
-    }
-
-    function changePrice(){
-         document.getElementById("price").innerText = "Rs. 599.00"
-       }
-
-       function changePrice1(){
-           document.getElementById("price").innerText = "Rs. 1,599.00"
-       }
-       function toCartPage(){
-           window.location.href= "my_cart.html"
-       }
+<script src="./script/add_to.js">
 
 
-       var box3 = document.getElementById("returnData")
-       function showDesc(){
-           var box1 = document.getElementById("descData")
-           if(box1.style.display== "none" ){
-               box1.style.display = "block"
-               box3.style.display= "none"
-           }
-        //    else {
-        //        box1.style.display = "none"
-        //    }
-       }
-       
-       function showReturn(){
-           let box3 = document.getElementById("returnData")
-           if(box3.style.display== "none"){
-               box3.style.display = "block"
-           }
-           else {
-               box3.style.display = "none"
-           }
-       }
 
-       
 </script>

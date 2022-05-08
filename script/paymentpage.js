@@ -1,17 +1,3 @@
-let priceFromServer = document.querySelector("#u_price").innerHTML;
-// console.log(priceFromServer);
-let subTotal = document.querySelector("#final-total");
-let FinalTotal = document.querySelector("#Rupee");
-
-let y = Number(priceFromServer);
-
-subTotal.innerHTML = y;
-FinalTotal.innerHTML = y;
-
-
-
-
-
 
 document.querySelector("#paytm-display").addEventListener("click",displayblockPaytm)
 
@@ -149,3 +135,30 @@ console.log(loginData.email)
 let user_email = document.querySelector("#email2348");
 
 user_email.innerHTML = loginData.email;
+
+
+
+// sping cart
+let sppingData = JSON.parse(localStorage.getItem("addData"));
+
+
+sppingData.map(function(el,index,arr) {
+    let ptag = document.querySelector("#meraGhar");
+    ptag.innerText= null;
+
+    ptag.innerText= `${el.city}, ${el.state}, ${el.pin}`
+})
+
+
+// // cart value amount
+var count = localStorage.getItem("pro_count");
+let pricehard = 599.00
+
+document.querySelector("#u_price").innerHTML = `${Number(count)*pricehard}.00`
+
+document.querySelector("#final-total").innerText = `${Number(count)*pricehard}.00`
+document.querySelector("#Rupee").innerText = `${Number(count)*pricehard}.00`
+
+
+
+

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/navbar.css">
 
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/my_cart.css">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
 
@@ -19,165 +20,7 @@
 
     <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
 
-    <style>
-        #myCart {
-            font-size: 30px;
-            margin-left: 180px;
-            margin-top: 120px;
-        }
-
-        #container {
-            /* border: 1px solid black; */
-            width: 76%;
-            height: 200px;
-            margin: auto;
-            display: flex;
-            margin-top: 50px;
-        }
-
-        #_details {
-            /* border: 1px solid black; */
-            width: 66%;
-        }
-
-        #_pricing {
-            /* border: 1px solid black; */
-            width: 34%;            
-            background-color: #f7f7f7;
-            /* background-color: #dbd1d1; */
-            margin-left: 10px;
-        }
-        
-
-        #_head {
-            display: flex;
-            justify-content: space-between;            
-            height: 30%;
-        }        
-
-        #_foot {
-            /* border: 1px solid black; */
-            height: 70%;
-        }
-
-        #_head, #_foot{
-            border-bottom: 1px solid rgb(204, 199, 199);
-        }        
-
-        #qty_price{
-            display: flex;
-        }
-
-        #qty_price{
-            width: 30%;
-        }
-
-        #qty_price > div{
-            width: 40%;
-        }
-
-        #_head p{
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        #_foot{
-            display: flex;
-            justify-content: space-between;
-        }        
-
-        #_foot img{
-            width: 95%;
-            margin-top: 5px;
-        }
-
-        #_foot > div{
-            display: flex;
-            align-items: center;
-        }
-
-        #_foot > div:nth-child(2) > p{
-            font-size: 14px;
-            margin-left: 20px;
-            margin-right: 10px;
-        }
-
-        #_foot > div:nth-child(3){
-            width: 10%;
-        }
-
-        #_foot > div:nth-child(3) > input{
-            width: 80%;
-            height: 30px;
-            margin-left: 0px;
-            text-align: center;
-        }
-
-        #_foot > div:nth-child(4){
-            width: 10%;
-        }
-
-        #_foot > div:nth-child(5){
-            width: 6%;
-        }
-
-        #_foot i{
-            font-size: 20px;
-            color: grey;
-        }
-
-        #check_price{
-            font-size: 14px;
-        }
-
-        #_keemat{
-            display: flex;
-            justify-content: space-between;
-            width: 90%;
-            margin: auto;
-            font-size: 14px;
-            font-weight: 600;            
-        }
-
-        #update {
-            margin-bottom: 20px;
-            width: 90%;
-            height: 48px;
-            border-radius: 5px;
-            border: none;
-            background-color: #343434;
-            color: white;
-            display: block;
-            margin: auto;
-        }
-
-        #update:hover{
-            background-color: #e5b95f;
-            cursor: pointer;
-        }
-
-        #check {
-            margin-bottom: 20px;
-            width: 90%;
-            height: 48px;
-            border-radius: 5px;
-            border: none;
-            background-color: #e5b95f;
-            color: white;
-            display: block;
-            margin: auto;
-        }    
-        
-        #check:hover{
-            background-color: #343434;
-            cursor: pointer;
-        }
-
-        #footer_ {
-            margin-top: 130px;
-        }
-
-    </style>
+  
 
 </head>
 
@@ -222,11 +65,11 @@
                 </div>
 
                 <div>
-                    <input type="text">
+                    <input type="number" id="qty0889"/>
                 </div>
 
                 <div>
-                    <p id="check_price">Rs. 1,198.00</p>
+                    <p id="check_price">Rs. <span id="priceFinal"></span></p>
                 </div>
 
                 <div>
@@ -243,7 +86,7 @@
 
             <div id="_keemat">
                 <p>TOTAL PRICE :</p>
-                <p>Rs. 1,198.00</p>
+                <p >Rs. <span id="totalPrice"></span></p>
             </div>
 
             <button id="update">UPDATE CART</button>
@@ -274,12 +117,10 @@
     import { navbar } from './components/navbar.js';
 
     document.getElementById('navbar').innerHTML = navbar();
-
+    document.querySelector("#cartNo099").innerText = count  
 </script>
 
 
-<script>
-    function checkout() {
-        window.location.href = "checkout.html"
-    }
+<script src="./script/my_cart.js">
+   
 </script>
