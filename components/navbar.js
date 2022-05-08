@@ -51,7 +51,7 @@ function navbar(){
                             shopping_cart
                         </span>
                         <div id="cartnum">
-                            <p>0</p>
+                            <p id ="cartNo099">0</p>
                         </div>
                     </a>
                 </li>

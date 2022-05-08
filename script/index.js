@@ -231,3 +231,12 @@ let showimg = (data) => {
   });
 };
 showimg(tndata);
+
+
+
+
+// cart rflect
+
+var count = localStorage.getItem("pro_count");
+
+document.querySelector("#cartNo099").innerText = count

@@ -1,14 +1,14 @@
 // <=======================Right Div data Js=========================>
 
-let priceFromServer = document.querySelector("#price242").innerText;
-// console.log(priceFromServer);
-let subTotal = document.querySelector("#final-total");
-let FinalTotal = document.querySelector("#Rupee");
+// let priceFromServer = document.querySelector("#price242").innerText;
+// // console.log(priceFromServer);
+// let subTotal = document.querySelector("#final-total");
+// let FinalTotal = document.querySelector("#Rupee");
 
-let y = Number(priceFromServer);
+// let y = Number(priceFromServer);
 
-subTotal.innerHTML =y;
-FinalTotal.innerHTML =y;
+// subTotal.innerHTML =y;
+// FinalTotal.innerHTML =y;
 
 // console.log(y)
 
@@ -102,3 +102,14 @@ sppingData.map(function(el,index,arr) {
 
     ptag.innerText= `${el.city}, ${el.state}, ${el.pin}`
 })
+
+
+// cart value amount
+var count = localStorage.getItem("pro_count");
+let pricehard = 599.00
+
+document.querySelector("#price242").innerHTML = `${Number(count)*pricehard}.00`
+
+document.querySelector("#final-total").innerText = `${Number(count)*pricehard}.00`
+document.querySelector("#Rupee").innerText = `${Number(count)*pricehard}.00`
+

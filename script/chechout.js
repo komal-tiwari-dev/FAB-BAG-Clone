@@ -33,3 +33,9 @@ adressData.push(addressdeatils)
 localStorage.setItem("addData", JSON.stringify(adressData));
 window.location.href= "shipping.html"
 }
+
+// amount ke liye ye sb k rha roon
+var count = localStorage.getItem("pro_count");
+document.querySelector("#subtotal").innerText = `₹ ${Number(count)*599}.00`
+document.querySelector("#total").innerText = `₹ ${Number(count)*599}.00`
+document.querySelector("#pri").innerText = `₹ ${Number(count)*599}.00`
