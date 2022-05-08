@@ -57,6 +57,10 @@ i{
     font-size: 15px;
 }
 
+#two_ span{
+    font-style: normal;
+}
+
 #subscribe_{
     font-size: 12px;
     border: none;
