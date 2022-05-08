@@ -1,0 +1,847 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #navbar{ */
+    /* width: 100%; */
+    /* height: 80px; */
+/* } */
+#centre-div230{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 0 3.8rem 0 3.8rem;
+    /* margin: 0 5rem 0 5rem; */
+    /* margin-left: 4rem; */
+    /* margin-right: 4rem; */
+    
+}
+#left-div230{
+    width: 55%;
+    padding: 4rem 4rem 0px 0px;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+
+#header{
+    width: 100%;
+    height: 7.9125rem;
+    /* border: 2px solid yellow; */
+    padding-bottom: 1.56rem;
+    box-sizing: border-box;
+}
+#img-div230{
+    width:17.4375rem;
+    /* text-align: center; */
+    /* border: 1px solid blue; */
+    height:3.75rem ;
+    margin: auto;
+}
+#img-logo{
+    height: 100%;
+    /* max-width: 100%; */
+    /* height: 100%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    /* margin-left: 20%; */
+}
+#mini-detailts230{
+    width: 100%;
+    /* text-align: center; */
+    /* border: 1px solid blue; */
+    height: 1.125rem;
+    margin: auto;
+    margin-top: 0.65rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}#icon{
+    display: flex;
+    gap: 0.25rem;
+    text-align: center;
+}
+.fa-solid{
+    /* font-weight: 300; */
+    color: #9a9694f1;
+}
+
+/* User Details Div */
+#user-info-div230{
+    height: 9.1875rem;
+    /* width: 33.5rem; */
+    width: 100%;
+    border:1px solid #d1cece;
+    /* padding: 1rem 0.75 1rem 0.75rem; */
+    padding: 0.75rem 1rem 0.75rem 1rem ;
+    border-radius: 0.32rem;
+}
+#col1-div230{
+    /* border-bottom: 1px solid gray; */
+    padding: 1rem 0 0 0;
+    display: flex;
+    height: 24%;
+    font-family: sans-serif;
+}
+.contact230{
+    padding: 0 1rem 0 0;
+    width: 15%;
+    color:#7a7573;
+    font-size: 0.87rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+}
+.email230{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 40px; */
+    color: #333333;
+    font-size: 0.87rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+}
+
+#col2-div230{
+    width: 100%;
+    height: 24%;
+    margin-top: 0.75rem;
+    /* border-top: 1px solid gray; */
+    padding-top: 0.75rem;
+    display: flex;
+    border-top: 1px solid #d1cece;
+    font-family: sans-serif;
+}
+.ship230{
+   width: 15%;
+   padding: 0 1rem 0 0;
+   color: #7a7573;
+   font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+}
+.cart230{
+    margin-left: 0.625rem;
+}
+.address230{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    color: #333333;
+    font-size: 0.87rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+}
+
+#col3-div230{
+    display: flex;
+    width: 100%;
+    height: 24%;
+    border-top: 1px solid #d1cece;
+    margin-top: 0.811rem;
+    padding-top: 0.811rem;
+    font-family:sans-serif;
+}
+.method230{
+    width: 15%;
+    padding: 0 1rem 0 0;
+    color: #7a7573;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+}
+.payment230{
+    width: 85%;
+    color: #333333;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+
+}
+a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+}
+
+/*<==============================Payment Div================================> */
+#payment-div230{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid green; */
+    padding: 2.625rem 0 0 0;
+    
+}
+#paydiv230{
+   margin-bottom: 1.25rem;
+}
+.encryp{
+   margin: 0.25rem 0 0 0;
+   color: #545454;
+   font-size: 0.875rem;
+   line-height: 1.3125rem;
+   font-weight: 400;
+   font-family: sans-serif;
+}
+.payhead{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4375rem;
+    color: #333333;
+    font-family: sans-serif;
+}
+#card-sel-div230{
+    width: 100%;
+    padding: 0.875rem;
+    display: flex;
+    height: 3.75rem;
+    /* border: 1px solid red; */
+}
+.radio-input-div230{
+    padding: 0 0.625rem 0 0;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-paradiv230{
+    font-size: 0.811rem;
+    line-height: 1.125rem;
+    font-weight: 500;
+    color: #333333;
+    font-family: sans-serif;
+    width: 43%;
+}
+.card-logo-div230{
+    display: flex;
+    padding-left: 0.625rem;
+    width: 47%;
+    gap: 0.5rem;
+
+}
+.logo230{
+    width: 2.375rem;
+    height: 1.5rem;
+}
+.content-box__small-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 5px; */
+}
+
+#block-div230{
+    width: 100%;
+    height: 22.5rem;
+    padding: 1rem;
+    /* border: 0.5px solid #a09d9d;; */
+    /* display: none; */
+}
+#card-main-div230{
+    width: 100%;
+    height: 55%;
+    /* border: 1px solid yellow; */
+    border: 1px solid #cec7c7;
+    border-radius: 5px;
+}
+#innerdiv230{
+    padding: 1rem 3.9375rem 1rem 3.9375rem;
+    width: 100%;
+    border-bottom: 0.5px solid gray;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    font-weight: 400;
+    color: #545454;
+    text-align: center;
+    /* display: none; */
+}
+#in-img-div{
+    width: 100%;
+    height: 7.5rem;
+    margin-bottom: 1rem;
+    /* border-bottom: 0.5px solid gray; */
+}#paylogo{
+    /* width: 44%; */
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#paytm230{
+    display: flex;
+    width: 100%;
+    height: 3.5rem;
+    padding: 1rem;
+    justify-content: space-between;
+    border-top:  0.5px solid gray;
+}
+#paytm_select230{
+    display: flex;
+    gap: 0.375rem;
+    width: 50%;
+}
+#paytm_logo{
+    height: 100%;
+    width: 100%;
+}
+.paytm-logo{
+    height: 100%;
+    /* width: ; */
+}
+#select_logo230{
+    display: flex;
+    gap: 0.375rem;
+    width: 50%;
+    justify-content: flex-end;
+}
+#paytm-block_innerdiv230{
+    padding: 1rem 3.9375rem 1rem 3.9375rem;
+    width: 100%;
+    border-bottom: 0.5px solid gray;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    font-weight: 400;
+    color: #545454;
+    text-align: center;
+    display: none;
+}
+#cod-div-main{
+    padding: 0.8rem;
+    width: 100%;
+    height: 4rem;
+    border-top: 0.5px solid gray;
+}
+#cod-div230{
+    display: flex;
+    gap: 0.375rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#cod-block_innerdiv230{
+    padding: 1rem 3.9375rem 1rem 3.9375rem;
+    width: 100%;
+    border-bottom: 0.5px solid gray;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    font-weight: 400;
+    color: #545454;
+    text-align: center;
+    display: none;
+}
+/* input:checked {
+    border: 6.5px solid black;
+
+}
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}   */
+
+
+/* Right Side bottom Div work  */
+/* #content-div{
+    width: 100%;
+    height: auto;
+} */
+#section_header230{
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1.34rem;
+
+}
+.p_tag_bottom{
+    margin-top: 3.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.3rem;
+    color: #545454;
+}
+.h2_bottom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.72rem;
+    color: #333333;
+}
+#section_main_div{
+    width: 100%;
+    height: 65.6rem;
+    padding-bottom: 3.52rem;
+}
+
+#Billing-div230{
+    width: 100%;
+    height: 13.3rem;
+    padding-top: 2.6rem;
+}
+
+#bill-input230{
+    border: 1px solid #cec7c7;
+    border-radius: 5px;
+}
+#shippingAdd-div230{
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    height: 3.3rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    color: #333333;
+}
+#ChangeAdd-div230{
+    display: flex;
+    gap: 0.5rem;
+    border-top: 1px solid #cec7c7;
+    width: 100%;
+    height: 3.3rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+}
+
+#complete230{
+    width: 100%;
+    height: 4.4rem;
+    margin-top: 1.33rem;
+    display: flex;
+    justify-content: space-between;
+}
+/* #completeButton230{
+   width: 9rem;
+   height: 100%;
+} */
+#return230 a{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 0.97rem;
+   font-weight: 400;
+   line-height: 1.2rem;
+   color: #1b1b1b;
+}
+#button230 a{
+    color: white;
+}
+#button230{
+  width: 10.5rem ;
+  height: 86%;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+#button230:hover{
+    cursor: pointer;
+}
+#shipfooter{
+    width: 100%;
+    height: 3.4rem;
+    padding: 1rem;
+    display: flex;
+    gap: 0.6rem;
+    border-top: 1px solid #cec7c7;
+}
+#shipfooter a{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    font-weight: 400;
+    color: #1b1b1b;
+}
+
+/* Right Div Style */
+
+#right-div230{
+    width: 45%;
+    height: 79rem;
+    margin: 1.8rem 0 0 0;
+    padding: 3.6rem 3.3rem 3.3rem 3.3rem;
+    border: 2px solid  white;
+}
+#content-div{
+    width: 100%;
+    height: 29rem;
+}
+#upper-div230{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+#u_pro_details{
+    padding: 0 0.9rem 0 1rem;
+}
+#u_price{
+    padding-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #323232;
+    font-weight: 500;
+}
+#u-mini_img{
+    border-radius: 5px;
+    border:1px solid #cec7c7 ;
+}
+#u_pro_details h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #323232;
+    font-weight: 500;
+}
+#u_pro_details p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    color: #717171;
+    font-weight: 400;
+}
+
+#middle-div230{
+    width: 100%;
+    height: 5.8rem;
+    /* padding: 1.3rem 0 1.3rem 0; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    border-top:1px solid #cec7c7 ;
+}
+
+#middle-div230 button{
+    background-color: #c8c8c8;
+    color: white;
+    width: 6rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    height: 50px;
+
+
+}
+
+input[type=text] {
+    width: 16.2rem;
+    /* height: 100% ; */
+    /* outline: none; */
+     border-radius: 8px;
+    /* padding: 1.2rem; */
+    /* box-sizing: border-box; */
+    border: 1px solid #dfdfdf;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    height: 50px;
+    margin-right: 25px;
+}
+input[type=text]:focus{
+    border: 2px solid black;
+}
+
+#sub_total_div230{
+    width: 100%;
+    height: 8rem;
+    border-top: 1px solid #cec7c7;
+}
+#subtotal230 , #shipping230 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main230{
+    padding: 1.3rem 0 1.3rem 0;
+    border-bottom: 1px solid #cec7c7;
+}
+#shipping230{
+    padding: 1.3rem 0 0 0;
+}
+
+#subtotal230 :nth-child(1),#shipping230 :nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    color: #535353;
+    font-weight: 400;
+
+}
+
+/* #middle-div230 */
+
+#subtotal230 :nth-child(2),#shipping230 :nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    color: #323232;
+    font-weight: 500;
+
+}
+#final_total_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem 0 0 0;
+}
+#inr_div{
+    display: flex;
+    width: 6rem;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+#inrSYM p{
+    font-size: 11px;
+}
+#inrSYM{
+    padding: 0.77rem 0 0.12rem 0 ;
+}
+#Rupee{
+    /* margin: auto; */
+    padding: 0.5rem 0 0 0;
+}
+#right-div230{
+    background-color: #f7f7f7;
+    /* background-color: red; */
+}
+
+#top_total p{
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    color: #323232;
+}
+
+#Rupee{
+   font-family: sans-serif;
+   font-size: 1.12rem;
+   font-weight: 500;
+   line-height: 1.12rem;
+   color: #323232;
+}
+
+/* <=============================blur backgrount css ===============================> */
+.galaxy#universe.active
+{
+    filter: blur(10px);
+    pointer-events: none;
+    user-select: none;
+}
+
+#popup_refund{
+    height: auto;
+    position: fixed;
+    bottom: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#popup_refund.active{
+    bottom: 4%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+#pop_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    width: 80%;
+    height: 120px;
+    border-bottom: 1px solid gray;
+}
+
+
+
+/* media query */
+
+@media only screen and (min-width: 602px) and (max-width: 990px) {
+
+    #header{
+        display: none;
+    }
+    
+}
+
+
+/* Change Address Block div style */
+
+#ChangeAddress{
+    width: 100%;
+    height: 27.13rem;
+    background-color: white;
+    padding: 1rem;
+    border-top: 1px solid #cec7c7;
+    display: none;
+}
+
+#options {
+    text-align: center;
+    font-size: 15px;
+    margin-right: 60px;
+  }
+  #span1 {
+      margin-left: 200px;
+  }
+  input {
+      margin-top: 20px;
+      
+  }
+  #city {
+    width: 30%;  
+    height: 30px;
+  }
+  #state {
+    width: 30%;
+    height: 30px;
+  }
+  #pin {
+      width: 30%;
+      height: 30px;
+  }
+  #mail, #country, #firstName, #lastName, #company, #address, #apartment, #number {
+      width: 93%;
+      height: 35px;
+      border-radius: 5px;
+      border: 1px solid #c8c8c8;
+      outline-color: black;
+  }
+  .p1 {
+      font-size: 20px;
+  }
+  #span1 {
+      font-size: 15px;
+      color: #736f6f;
+  }
+  .s {
+      cursor: auto;
+      color: #736f6f;
+  }
+  #shipping {
+      margin-left: 300px;
+      height: 50px;
+      border-radius: 5px;
+      background-color: black;
+      color: white;
+      width: 30%;
+  }
+  #inner_div {
+      border: 1px solid black;
+      width: 100%;
+      height: 140px;
+      margin-right: 200px;
+      display: flex;
+      border-left: none;
+     border-right: none;
+     border-top: none;
+     border-bottom: none;
+     
+       
+  }
+  #img2 {
+    width:15%;  
+    height: 60px; 
+    
+  }
+  #the {
+     margin-top: 50px; 
+     margin-right:10px;
+     width: 25%;
+  }
+  #pri {
+      margin-top: 50px; 
+     margin-right:-10px;
+  }
+  #discount {
+      width: 65%;
+      height: 35px; 
+      border-radius: 5px;
+      outline-color: black;
+      border: 1px solid #c8c8c8 ;
+      margin-left: 25px;
+      margin-bottom: 25px;
+      
+      
+  }
+  #apply {
+      width: 8%;
+      padding: 10px;
+      padding-right: 50px;
+      padding-left: 20px;
+      border-radius: 5px;
+      border: none;
+      background-color: #c8c8c8;
+      color: white;
+  }
+ #inner_div2 {
+     border: 1px solid black;
+     margin-left: 75px;
+     width: 73%;
+     border-left: none;
+     border-right: none;
+     border-top: 1px solid rgb(159, 158, 158);
+     border-bottom: 1px solid rgb(204, 199, 199);
+     
+ }
+ #inner_div3 {
+     
+     margin-left: 75px;
+     width: 73%;
+     height: 90px;
+     border-left: none;
+     border-right: none;
+     border-top: 1px solid rgb(204, 199, 199);
+     border-bottom: 1px solid rgb(204, 199, 199);
+ }
+ #inner_div4 {
+     border: 1px solid black;
+     margin-left: 75px;
+     width: 73%;
+     height: 90px;
+     border-left: none;
+     border-right: none;
+     border-top: 1px solid rgb(204, 199, 199);
+     border-bottom: NONE;
+    
+ }
+ #subtotal {
+     margin-left: 220px;
+ }
+ #ship {
+     margin-left: 150px;
+     font-size: 15px;
+ }
+
+
+
+
