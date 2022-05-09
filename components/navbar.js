@@ -26,20 +26,20 @@ function navbar(){
                                 <p>Fr</p>
                             </li>
                             <hr />
-                            <li>
-                                <a href="#">
+                            <li
+                                <a href="./checkout.html">
                                     <p class="acc">Checkout</p>
                                 </a>
                             </li>
                             <hr />
                             <li>
-                                <a href="./signup.html">
+                                <a href="./signin.html">
                                     <p class="acc">Sign Up</p>
                                 </a>
                             </li>
                             <hr />
                             <li>
-                                <a href="#">
+                                <a href="./signup.html">
                                     <p class="acc">Create An Account</p>
                                 </a>
                             </li>
