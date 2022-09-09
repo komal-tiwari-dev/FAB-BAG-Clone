@@ -1,6 +1,6 @@
 ## FAB-BAG-Clone
 This project was to clone fabbag websie within 7 day. Fagbag is cosmetics based online service provider company.
-
+## Deploy Link -> https://fabbag-clonefw.netlify.app/
 ## Collaborators (Masai school's Student)
  - [Chandan Kumar Sharma](https://github.com/chandan0531)
  - [Komal Tiwari](https://github.com/komal-tiwari-dev)
